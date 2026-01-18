@@ -1,0 +1,29 @@
+# Ignore everything by default
+*
+
+# But allow .ipynb files (notebooks)
+!*.ipynb
+
+# Don't ignore .gitignore itself
+!.gitignore
+
+# Ignore specific file types and directories
+.DS_Store
+*.md
+*.json
+*.csv
+*.txt
+data/
+experiments/
+indices/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
