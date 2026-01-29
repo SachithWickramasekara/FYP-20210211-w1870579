@@ -4,6 +4,10 @@
 # But allow .ipynb files (notebooks)
 !*.ipynb
 
+# Allow backend (FastAPI app)
+!backend/
+!backend/**
+
 # Don't ignore .gitignore itself
 !.gitignore
 
@@ -26,4 +30,8 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Re-allow backend docs and config (overrides *.md, *.txt above)
+!backend/**/*.md
+!backend/**/*.txt
 

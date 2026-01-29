@@ -1,0 +1,1 @@
+"""PixelClear Backend Application."""
